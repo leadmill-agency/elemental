@@ -112,8 +112,8 @@ section { padding: 64px 0; }
   letter-spacing: 0.04em;
 }
 @media (min-width: 900px) { .nav { display: flex; } }
-.header-cta { display: none; }
-@media (min-width: 700px) { .header-cta { display: inline-block; } }
+.btn.header-cta { display: none; }
+@media (min-width: 700px) { .btn.header-cta { display: inline-block; } }
 
 /* ---------- Buttons ---------- */
 .btn {
