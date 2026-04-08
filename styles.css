@@ -290,9 +290,16 @@ section { padding: 64px 0; }
   padding: 0;
   display: flex;
   flex-direction: column;
-  transition: transform 0.15s;
+  transition: transform 0.15s, box-shadow 0.15s;
+  color: inherit;
+  text-decoration: none;
 }
-.service-card:hover { transform: translateY(-4px); }
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 6px 6px 0 var(--blue);
+  text-decoration: none;
+}
+.service-card:hover .more { color: var(--blue-2); }
 .service-card .img {
   background: var(--bg-2) center/cover no-repeat;
   aspect-ratio: 4 / 3;
